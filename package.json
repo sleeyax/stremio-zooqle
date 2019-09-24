@@ -80,7 +80,7 @@
     "magnet-uri": "^5.1.7",
     "needle": "^2.2.1",
     "serve-static": "^1.13.2",
-    "stremio-addons": "^2.8.14",
+    "stremio-addon-sdk": "^1.2.0",
     "torrent-name-parser": "^0.6.5"
   }
 }
