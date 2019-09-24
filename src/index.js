@@ -57,7 +57,7 @@ builder.defineStreamHandler((args) => {
 })
 
 let client = new ZooqleClient({
-  userName: process.env.USERNAME,
+  userName: process.env.USER,
   password: process.env.PASSWORD,
   userAgent: 'stremio-zooqle',
   proxy: false,

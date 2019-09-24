@@ -24,9 +24,9 @@ function isEligibleTorrent(torrent, torrentsByCategory) {
     category,
     seeders = 0,
     languages = []
-  } = torrent; // When languages are specified and there is no English, ignore the torrent
+  } = torrent;
 
-  if (seeders < MIN_SEEDERS || languages.length && !languages.includes('EN')) {
+  if (seeders < MIN_SEEDERS) {
     return false;
   }
 

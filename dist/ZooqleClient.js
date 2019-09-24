@@ -280,7 +280,7 @@ class ZooqleClient {
 
     return _asyncToGenerator(function* () {
       if (!_this8._cache) {
-        return _this8._getMovieTorrents(imdbId, season, episode);
+        return _this8._getShowTorrents(imdbId, season, episode);
       }
 
       let cacheKey = `${CACHE_PREFIX}show:${imdbId}:${season}:${episode}`;
